@@ -10,7 +10,7 @@
 
 @interface UIView( Image )
 
--(UIImage *) image;
+-(UIImage *) imagePDF;
 -(void) savePNG:(NSString *)filePath;
 -(void) saveJPEG:(NSString *)filePath :(float)quality;
 

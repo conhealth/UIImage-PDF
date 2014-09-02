@@ -7,9 +7,7 @@
 //
 
 #import "NSData+MD5.h"
-
 #import <CommonCrypto/CommonDigest.h>
-
 
 /* From: https://gist.github.com/1209911
  */
