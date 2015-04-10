@@ -162,6 +162,9 @@
 		CGContextScaleCTM( ctx, size.width / mediaRect.size.width, size.height / mediaRect.size.height );
 		CGContextTranslateCTM( ctx, -mediaRect.origin.x, -mediaRect.origin.y );
         
+        CGContextSetRGBFillColor(ctx, 1.0f, 1.0f, 1.0f, 1.0f);
+        CGContextFillRect(ctx, mediaRect);
+        
 		CGContextDrawPDFPage( ctx, page1 );
 		CGPDFDocumentRelease( pdf );
         
